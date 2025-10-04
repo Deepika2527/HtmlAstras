@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        caption{
+            caption-side: top;
+            font-size: 22px;
+        }
+
+        th,td{
+            padding: 12px;
+            text-align: center;
+        }
+
+        tfoot{
+            background-color: #f2f2f2;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+
+    <table border="1"  width="90%" style="border-collapse: collapse;">
+        <caption>Employee's Details</caption>
+        <thead style="background-color: pink;">
+             <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Place</th>
+                <th colspan="2">Phone No/Alternte_No</th>
+                <!-- <th>Alternate phno</th> -->
+             </tr>
+
+        </thead>
+
+        <tbody style="background-color: lightseagreen;">
+            <tr>
+                <td>1</td>
+                <td>Anu</td>
+                <td rowspan="3">Hyderbad</td>
+                <td>1234567890</td>
+                <td>1234567890</td>
+            </tr>
+
+            <tr>
+                  <td>2</td>
+                <td>Deepika</td>
+                <!-- <td>Hyderbad</td> -->
+                <td>1234567890</td>
+                <td>1234567890</td>
+
+            </tr>
+
+            <tr>
+                 <td>3</td>
+                <td>Geetha</td>
+                <!-- <td>Banglore</td> -->
+                <td>1234567890</td>
+                <td>1234567890</td>
+            </tr>
+
+
+             <tr>
+                 <td>4</td>
+                <td>Ramya</td>
+                <td>Chennai</td>
+                <td>1234567890</td>
+                <td>1234567890</td>
+            </tr>
+
+        
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="5">Total employess : 4</td>
+            </tr>
+        </tfoot>
+
+
+
+
+    </table>
+
+</body>
+
+</html>
