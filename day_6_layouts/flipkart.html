@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <style>
+        /* ---------- Global Styling ---------- */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+        }
+
+        a:hover {
+            background-color: #0059b3;
+            border-radius: 5px;
+        }
+
+        /* ---------- Navbar Styling ---------- */
+        nav {
+            background-color: #007bff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+        }
+
+        /* ---------- Banner Section ---------- */
+        #banner {
+            text-align: center;
+            background-color: #e6f0ff;
+            padding: 20px;
+        }
+
+        #banner img {
+            width: 70%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        /* ---------- Categories Section ---------- */
+        #categories {
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        #categories div {
+            display: inline-block;
+            width: 250px;
+            margin: 15px;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+
+        #categories img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        #categories p {
+            font-size: 16px;
+            margin-top: 8px;
+        }
+
+        /* ---------- Featured Section ---------- */
+        #featured {
+            text-align: center;
+            padding: 30px;
+        }
+
+        #featured h2 {
+            margin-bottom: 20px;
+        }
+
+        article {
+            display: inline-block;
+            width: 220px;
+            background-color: white;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+
+        article img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+            background-color: #eee;
+        }
+
+        article button {
+            background-color: #007bff;
+            border: none;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        article button:hover {
+            background-color: #0056b3;
+        }
+
+        /* ---------- Footer ---------- */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer a {
+            color: #ddd;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flipkart</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Home</a>
+                <a href="#">Electronics</a>
+                <a href="#">Clothing</a>
+                <a href="#">Pet Accessories</a>
+                <a href="#">Baby Products</a>
+                <a href="#">Flipkart Minutes</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <section id="banner">
+            <h1>Big Billion Days Started!</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0VjTeP-r4xL12Esj6vwnheNmITVOxn8ClvQ&s" alt="my_bannerimg">
+        </section>
+    </header>
+
+    <section id="categories">
+        <h2>Shop by Categories</h2>
+        <div id="mobiles">
+            <h3>Mobiles</h3>
+            <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/y/w/k/-original-imahfvpcn3j8qwzk.jpeg?q=70" alt="mobiles">
+            <p> ₹<del>40,000</del> <mark>₹20,000</mark> <small>On offer</small></p>
+        </div>
+
+        <div id="laptops">
+            <h3>Laptops</h3>
+            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/laptop/h/h/2/-original-imah2kk8xwjg4ygn.jpeg?q=70" alt="laptop">
+            <p> ₹<del>80,000</del> <mark>₹60,000</mark> <small>On offer</small></p>
+        </div>
+
+        <div id="camera">
+            <h3>Camera</h3>
+            <img src="https://rukminim2.flixcart.com/image/416/416/jv2p6kw0/dslr-camera/m/u/k/eos-3000d-3000d-canon-original-imafg9k7gncye3kc.jpeg?q=70" alt="camera">
+            <p> ₹<del>1,00,000</del> <mark>₹80,000</mark> <small>On offer</small></p>
+        </div>
+    </section>
+
+    <section id="featured">
+        <h2>Top Deals</h2>
+        <article>
+            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/j/o/b/-original-imagw4f6hzfxnqsr.jpeg?q=70" alt="">
+            <h4>Smart Watch</h4>
+            <p>₹2,000 <del>₹4,000</del></p>
+            <button type="button">Add to cart</button>
+        </article>
+
+        <article>
+            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/s/w/h/-original-imah2jg2ypqz5khx.jpeg?q=70" alt="">
+            <h4>Air Conditioner</h4>
+            <p>₹30,000 <del>₹45,000</del></p>
+            <button type="button">Add to cart</button>
+        </article>
+
+        <article>
+            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/k/t/a/-original-imah3qg9bthzkkcd.jpeg?q=70" alt="">
+            <h4>Headphones</h4>
+            <p>₹1,500 <del>₹3,000</del></p>
+            <button type="button">Add to cart</button>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Flipkart Clone. All rights reserved.</p>
+        <ul>
+            <li>
+                <a href="#">About</a>
+                <a href="#">Help</a>
+                <a href="#">Support</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
