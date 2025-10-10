@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marquee</title>
+    <style>
+        h2,p{
+            background-color: brown;
+            height: 400px;
+            width:600px
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- <marquee behavior="alternate" direction="left" width="300" scrollamount="10">Hello Anu, How are you</marquee> -->
+
+
+    <canvas id="canva" style="border: 1px solid black;" height="500px" width="400px"></canvas>
+
+
+
+    <script>
+        let id = document.getElementById('canva');
+        let ctx= id.getContext('2d');
+        console.log(ctx);
+        
+
+
+        ctx.fillStyle ='blue';
+        ctx.fillRect(100,100,300,500)
+    </script>
+
+    <hr>
+
+
+
+<svg width="400" height="400" style="border:2px solid red;">
+
+
+
+<circle cx="200" cy="200" r="40" fill="orange" stroke="black"></circle>
+</svg>
+    
+
+
+
+<script>
+
+    localStorage.setItem('name','Anu')
+</script>
+    
+
+<img src="" alt="">
+<a href=""></a>
+<audio src=""></audio>
+<h2 >Hello</h2>
+
+<p></p>
+</body>
+</html>

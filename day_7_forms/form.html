@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+
+<body>
+
+  <h1 align="center">Basic form creation-Html</h1>
+  <form action="./submit.html" method="get">
+    <!-- Text Input -->
+
+    <label for="fn">FirstName:</label>
+    <input type="text" name="fname" id="fn" placeholder="fistName"> <br><br>
+
+
+    <label for="ln">LastName:</label>
+    <input type="text" name="lname" id="ln" placeholder="last name"> <br><br>
+
+
+    <!-- password -->
+    <label for="pswd">Password:</label>
+    <input type="password" name="password" id="pswd" placeholder="paswword"> <br><br>
+
+    <!-- email -->
+    <label for="email">Email:</label>
+    <input type="email" name="em" id="email" placeholder="example@gmail.com"> <br> <br>
+
+
+
+    <!-- tel type -->
+    <label for="tel">Telephone:
+      <input type="tel" name="" id="" value="+91" size="1" disabled>
+    </label>
+    <input type="tel" name="" id=""> <br><br>
+
+
+    <!-- Number type -->
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age" min="2" max="10">
+
+    <br><br>
+
+
+    <!-- date-of-birt type -->
+    <label for="db">Date-of-birth</label>
+
+    Month:<input type="month" name="" id="">
+    Date:<input type="date" name="" id=""> <br><br>
+
+    <!-- <p>start date</p>
+          <input type="week" name="" id="">
+          <p>End end</p>
+          <input type="week" name="" id="">
+          <input type="datetime-local" name="" id=""> -->
+
+
+    <!-- color type -->
+
+    <label for="color">My Fav color</label>
+    <input type="color" name="" id=""> <br><br>
+
+
+
+    <!-- textarea -->
+    <label for="">Any suggestions</label>
+    <textarea name="" id="" cols="30" rows="5" placeholder="any suggestion"></textarea> <br><br>
+
+
+    <label for="resume">Upload Resume</label>
+    <input type="file" name="" id=""> <br><br>
+
+
+
+    <label for="">Search for products</label>
+    <input type="search" name="" id="">
+
+
+    <label for=""></label>Any website</label>
+    <input type="url" name="" id=""> <br><br>
+
+
+
+    <!-- radio buttons -->
+    <label for="">Select your Gender:</label>
+
+    <input type="radio" name="gender" value="fm">
+    <label for="">Female</label>
+
+    <input type="radio" name="gender" id="" value="male">
+    <label for="">Male</label>
+
+    <input type="radio" name="gender" value="ns">
+    <label for="">Not specific</label> <br><br>
+
+
+
+
+    <!-- checkboxes -->
+
+
+    <label for="english">Languages You Know</label>
+
+    <input type="checkbox" name="lan" id="english" value="en">
+    <label for="english">English</label>
+
+    <input type="checkbox" name="lan" id="telugu" value="tl">
+    <label for="telugu">Telugu</label>
+
+
+    <input type="checkbox" name="lan" id="hindi" value="Hn">
+    <label for="hindi">Hindi</label>
+
+    <input type="checkbox" name="lan" id="kannda" value="kn">
+    <label for="kannda">Kannada</label> <br><br>
+
+
+    <!-- dropdown -->
+
+    <label for="">Select your country</label>
+    <select name="" id="" name="country">
+      <option value="">India</option>
+      <option value="">Uk</option>
+      <option value="">Us</option>
+      <option value="">Australia</option>
+
+
+
+    </select> <br><br>
+    <!-- Range -->
+    <label for="rating">Rating from 0-10</label>
+    <input type="range" name="" id="" nin="1" max="100" step="10">
+    <!-- opt group -->
+
+
+
+
+
+    <br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="reset">
+    <button type="button">Add to wishlist</button> <br><br>
+
+
+
+
+    <!-- drop -->
+
+    <label for="skills">CHoose your Skills</label>
+    <select name="" id="">
+
+      <optgroup label="Frontend">
+
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">JS</option>
+        <option value="rjs">R-JS</option>
+      </optgroup>
+
+
+
+      <optgroup label="Backend">
+
+        <option value="html">Python</option>
+        <option value="css">Java</option>
+        <option value="js">Php</option>
+        <option value="rjs">NodeJS</option>
+      </optgroup>
+
+
+
+
+    </select> <br><br>
+
+
+    <h3>DataList</h3>
+    <h2>Choose your fav Hobbie</h2>
+    <label for="skills">Programming skills</label>
+    <input type="text" list="skill-set" id="skills">
+    <datalist id="skill-set">
+      <option value="Html">
+      <option value="css">
+      <option value="css-bootstrap">
+      <option value="js">
+      <option value="react-js">
+        <option value="node-js">
+
+    </datalist>
+
+
+
+    <h2>FieldSet Example</h2>
+
+    <fieldset>
+       <legend>Additonal info</legend>
+      <label for="name">Name:</label>
+      <input type="text" id="name"> <br> <br>
+      <label for="lname">Lastname</label>
+      <input type="text" name="" id="lname"> <br><br>
+      <label for="tel">Emergency contact no</label> 
+      <input type="tel" name="" id="">
+
+    </fieldset>
+
+
+
+    <h4>Summary</h4>
+
+    <details>
+      <summary>Click here to see addtionL Info</summary>
+      <p>This is the hidden conent and can be seen under summary</p>
+    </details>
+
+
+
+
+  </form>
+
+</body>
+
+</html>
